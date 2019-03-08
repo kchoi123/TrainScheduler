@@ -5,15 +5,16 @@
 }
 
 #body {
-    width:790px;
+    width: 790px;
     margin: 0 auto;
+    background-color: #F7F7F7;
 }
 
 #insideHeader {
     text-align: center;
 }
 
-.tableTitle{
+.tableTitle {
     text-align: center;
     font-size: 50px;
 }

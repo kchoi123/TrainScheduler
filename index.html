@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CalTrain</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
 </head>
 
@@ -22,23 +22,28 @@
                         <p id="insideHeader">Caltrain provides commuter rail service along the San Francisco
                             Peninsula,
                             through the South Bay to San Jose and Gilroy. Find your way with the following
-                            schedules.
-                        </p>
+                            schedules.</p>
+                        <p id="insideHeader">Contact Us
+                            Telephone
+                            Caltrain Customer Service
+                            (Weekdays: 7 am - 7 pm / Weekends & Holidays: 8 am - 5 pm)
+                            Information 1.800.660.4287
+                            Information for hearing impaired: (TTY) 650.508.6448
+                            Regional Traveler Information: 511.org </p>
                         <p id="insideHeader">Copyright © Kevin Choi, LLC. All rights reserved</p>
                     </span>
                 </div>
             </div>
             <nav class="navbar navbar-dark bg-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                    aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span> CalTrain
                 </button>
             </nav>
         </div>
     </header>
 
-    <div id=body>
+    <div id=body class="container">
         <div class="nav"></div>
 
 
@@ -55,26 +60,10 @@
                     <th scope="col">Destination</th>
                     <th scope="col">Frequency (min)</th>
                     <th scope="col">Next Arrival</th>
+                    <th scope="col">Minutes Away</th>
                 </tr>
             </thead>
             <tbody id="newTable">
-                <!-- <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
-                </tr> -->
             </tbody>
         </table>
 
@@ -86,7 +75,7 @@
         <form>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Train Name</label>
-                <input type="text" class="form-control" id="trainName" placeholder="Thomas the Train">
+                <input type="text" class="form-control" id="trainName" placeholder="Train 999">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Destination</label>
@@ -106,8 +95,7 @@
         <div id="submitButton">
             <input type="submit" class="btn btn-info"></input>
         </div>
-
-
+        <br>
 
     </div>
 
@@ -121,15 +109,13 @@
         </div>
     </div>
 
+
     <!-- script links to jquery, bootstrap, moment, and app.js -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/core.js"></script>
