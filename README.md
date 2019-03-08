@@ -8,11 +8,11 @@
 
 ### Check out the app!
 
-##Desktop Browser
+## Desktop Browser
 ![alt text](assets/images/Screenshot_1.jpg)
 
-##Mobile Browser
+## Mobile Browser
 ![alt text](assets/images/Screenshot_2.jpg)
 
-##Firebase Database
+## Firebase Database
 ![alt text](assets/images/Screenshot_3.jpg)
