@@ -1,4 +1,4 @@
-// firebsae
+// Firebsae
 var config = {
     apiKey: "AIzaSyB4YlEfsY277auMDWYMMeVOkR8s4tjzBmw",
     authDomain: "train-e04ae.firebaseapp.com",
@@ -9,6 +9,7 @@ var config = {
 };
 firebase.initializeApp(config);
 
+// Calling Firebase
 var database = firebase.database();
 
 $("#submitButton").on("click", function (event) {
