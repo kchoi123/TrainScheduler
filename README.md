@@ -1,10 +1,10 @@
 # TrainScheduler
 
 ##Desktop Browser
-![alt text](assets/images/screenshot_1.jpg)
+![alt text](assets/images/Screenshot_1.jpg)
 
 ##Mobile Browser
-![alt text](assets/images/screenshot_2.jpg)
+![alt text](assets/images/Screenshot_2.jpg)
 
 ##Firebase Database
-![alt text](assets/images/screenshot_3.jpg)
+![alt text](assets/images/Screenshot_3.jpg)
