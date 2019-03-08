@@ -1,0 +1,24 @@
+/* This will style my page */
+
+.nav {
+    margin-top: 100px;
+}
+
+#body {
+    width:790px;
+    margin: 0 auto;
+}
+
+#insideHeader {
+    text-align: center;
+}
+
+.tableTitle{
+    text-align: center;
+    font-size: 50px;
+}
+
+.card-body {
+    text-align: center;
+    font-size: 10px;
+}
