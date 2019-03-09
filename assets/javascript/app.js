@@ -12,6 +12,7 @@ firebase.initializeApp(config);
 // Calling Firebase
 var database = firebase.database();
 
+// On click for submit button
 $("#submitButton").on("click", function (event) {
     event.preventDefault();
 
@@ -45,7 +46,7 @@ $("#submitButton").on("click", function (event) {
     $("#frequency").val("");
 });
 
-// 3. Create Firebase event for adding newTrain to the database and a row in the html when a user adds an entry
+// Create Firebase event for adding newTrain to the database and a row in the html when a user adds an entry
 database.ref().on("child_added", function (snapshot) {
     console.log(snapshot.val());
 
